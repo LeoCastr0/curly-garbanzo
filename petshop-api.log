@@ -34,3 +34,9 @@
 2021-06-23T23:36:53.119Z [petshop-api] info GET /animal/proprietario/id 1
 2021-06-24T00:02:51.095Z [petshop-api] error DELETE  - Proprietario ID, Nome e telefone são necessários !
 2021-06-24T00:03:40.622Z [petshop-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2021-07-16T01:23:47.962Z [petshop-api] error GET  - str.charAt is not a function
+2021-07-16T01:23:57.006Z [petshop-api] error GET  - str.charAt is not a function
+2021-07-16T01:25:02.774Z [petshop-api] error GET  - str.charAt is not a function
+2021-07-16T01:25:14.350Z [petshop-api] error GET  - str.charAt is not a function
+2021-07-16T01:26:48.889Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2021-07-16T01:27:05.568Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
