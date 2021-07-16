@@ -1,0 +1,36 @@
+2021-06-23T00:32:06.524Z [petshop-api] info GET /proprietarios/id
+2021-06-23T00:33:52.226Z [petshop-api] info GET /proprietarios/id
+2021-06-23T00:34:12.307Z [petshop-api] info GET /proprietarios
+2021-06-23T00:36:16.983Z [petshop-api] info PUT /proprietario - {"proprietario_id":5,"nome":"Leonardo Castro","telefone":"(16)997926262"}
+2021-06-23T00:36:24.947Z [petshop-api] info GET /proprietarios
+2021-06-23T23:13:37.676Z [petshop-api] info GET /animal/id 2
+2021-06-23T23:14:07.332Z [petshop-api] error GET  - conn is not a function
+2021-06-23T23:15:02.707Z [petshop-api] info GET /animal/proprietario/id 2
+2021-06-23T23:15:20.859Z [petshop-api] info GET /animal
+2021-06-23T23:16:11.297Z [petshop-api] error POST  - Cannot read property 'nome' of undefined
+2021-06-23T23:17:36.441Z [petshop-api] error POST  - Cannot read property 'nome' of undefined
+2021-06-23T23:17:49.255Z [petshop-api] error POST  - Cannot read property 'id' of undefined
+2021-06-23T23:18:07.046Z [petshop-api] error POST  - AnimalRepository.insert is not a function
+2021-06-23T23:18:34.816Z [petshop-api] info POST /animal - {"animal_id":10,"nome":"Luna","tipo":"Cachorro","proprietario_id":1}
+2021-06-23T23:23:57.102Z [petshop-api] error PUT  - Proprietario ID, Nome e telefone são necessários !
+2021-06-23T23:24:19.869Z [petshop-api] info PUT /animal -  undefined
+2021-06-23T23:24:27.783Z [petshop-api] info PUT /animal -  undefined
+2021-06-23T23:24:45.348Z [petshop-api] info PUT /animal -  undefined
+2021-06-23T23:25:08.570Z [petshop-api] info PUT /animal -  {"animal_id":1,"nome":"BillyJeans","tipo":"Cachorro","proprietario_id":1}
+2021-06-23T23:25:26.125Z [petshop-api] info DELETE /animal/1
+2021-06-23T23:27:50.744Z [petshop-api] info GET /animal/proprietario/id 5
+2021-06-23T23:29:54.016Z [petshop-api] info POST /animal - {"animal_id":11,"nome":"Totó","tipo":"Cachorro","proprietario_id":6}
+2021-06-23T23:30:14.351Z [petshop-api] info GET /animal/proprietario/id 6
+2021-06-23T23:30:29.963Z [petshop-api] info GET /animal/proprietario/id 2
+2021-06-23T23:31:03.664Z [petshop-api] info GET /proprietarios/id
+2021-06-23T23:31:48.949Z [petshop-api] error DELETE  - Proprietario ID, Nome e telefone são necessários !
+2021-06-23T23:32:07.107Z [petshop-api] error DELETE  - Proprietario ID, Nome e telefone são necessários !
+2021-06-23T23:33:17.885Z [petshop-api] info GET /proprietarios/id
+2021-06-23T23:33:36.161Z [petshop-api] info GET /animal/proprietario/id 6
+2021-06-23T23:33:50.007Z [petshop-api] info GET /animal/id 6
+2021-06-23T23:34:26.180Z [petshop-api] info GET /proprietarios/id
+2021-06-23T23:36:16.730Z [petshop-api] info GET /animal/proprietario/id 1
+2021-06-23T23:36:45.161Z [petshop-api] info DELETE /animal/9
+2021-06-23T23:36:53.119Z [petshop-api] info GET /animal/proprietario/id 1
+2021-06-24T00:02:51.095Z [petshop-api] error DELETE  - Proprietario ID, Nome e telefone são necessários !
+2021-06-24T00:03:40.622Z [petshop-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
